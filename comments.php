@@ -1,7 +1,7 @@
 <html>
 
  <head>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="=comments.css" type="text/css">
  </head>
 
  <body>
@@ -21,7 +21,10 @@
   </form>
 
  </body>
+
 </html>
+
+
 <?php
  
  if($_POST['Submit']){
@@ -47,4 +50,4 @@
  echo "<br><br>Comments<hr>".fread($read, 1024);
  fclose($read);
 
-?>\\\
+?>
